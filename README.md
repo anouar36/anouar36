@@ -1,128 +1,447 @@
-<div align="center">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub README Preview</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
+            background: #0d1117;
+            color: #c9d1d9;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: #161b22;
+            border-radius: 6px;
+            border: 1px solid #30363d;
+            padding: 40px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .header-image {
+            width: 100%;
+            height: 300px;
+            background-image: url('https://i.imgur.com/your-uploaded-image.jpg');
+            background-size: cover;
+            background-position: center;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .header-image::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(0,0,0,0.6) 0%, rgba(220,20,60,0.3) 100%);
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            color: #dc143c;
+            margin: 20px 0;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        
+        .header .subtitle {
+            font-style: italic;
+            color: #8b949e;
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+        
+        .typing-effect {
+            color: #dc143c;
+            font-family: 'Courier New', monospace;
+            font-size: 1em;
+            padding: 10px;
+            background: rgba(220, 20, 60, 0.1);
+            border-radius: 4px;
+            display: inline-block;
+        }
+        
+        h2 {
+            color: #58a6ff;
+            font-size: 1.8em;
+            margin: 40px 0 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #21262d;
+        }
+        
+        h3 {
+            color: #dc143c;
+            font-size: 1.3em;
+            margin: 30px 0 15px;
+        }
+        
+        .about-section {
+            background: linear-gradient(135deg, rgba(220, 20, 60, 0.05) 0%, rgba(88, 166, 255, 0.05) 100%);
+            padding: 25px;
+            border-radius: 8px;
+            border-left: 4px solid #dc143c;
+            margin: 20px 0;
+        }
+        
+        .tech-section {
+            text-align: center;
+            margin: 30px 0;
+        }
+        
+        .tech-category {
+            margin: 30px 0;
+        }
+        
+        .tech-category h3 {
+            margin-bottom: 15px;
+        }
+        
+        .badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin: 15px 0;
+        }
+        
+        .badge {
+            display: inline-block;
+            padding: 8px 16px;
+            background: #21262d;
+            border-radius: 6px;
+            font-size: 0.9em;
+            font-weight: 600;
+            color: #fff;
+            border: 1px solid #30363d;
+            transition: transform 0.2s;
+        }
+        
+        .badge:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(220, 20, 60, 0.3);
+        }
+        
+        .badge.java { background: linear-gradient(135deg, #ED8B00, #c97500); }
+        .badge.spring { background: linear-gradient(135deg, #6DB33F, #5a9c32); }
+        .badge.php { background: linear-gradient(135deg, #777BB4, #5f6396); }
+        .badge.laravel { background: linear-gradient(135deg, #FF2D20, #cc2419); }
+        .badge.docker { background: linear-gradient(135deg, #2496ED, #1a7bc7); }
+        .badge.postgres { background: linear-gradient(135deg, #316192, #244a71); }
+        .badge.mysql { background: linear-gradient(135deg, #005C84, #004666); }
+        .badge.tailwind { background: linear-gradient(135deg, #38B2AC, #2d8e87); }
+        
+        .divider {
+            text-align: center;
+            margin: 60px 0;
+            font-size: 80px;
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        .project-card {
+            background: linear-gradient(135deg, rgba(33, 38, 45, 0.8) 0%, rgba(22, 27, 34, 0.8) 100%);
+            padding: 25px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border: 1px solid #30363d;
+            border-left: 4px solid #dc143c;
+            transition: all 0.3s;
+        }
+        
+        .project-card:hover {
+            transform: translateX(10px);
+            box-shadow: -4px 4px 20px rgba(220, 20, 60, 0.2);
+        }
+        
+        .project-card h3 {
+            color: #dc143c;
+            margin-top: 0;
+        }
+        
+        .project-card .subtitle {
+            color: #8b949e;
+            font-style: italic;
+            margin-bottom: 15px;
+        }
+        
+        .project-tech {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 15px;
+        }
+        
+        .tech-tag {
+            background: rgba(88, 166, 255, 0.1);
+            color: #58a6ff;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.85em;
+            border: 1px solid rgba(88, 166, 255, 0.3);
+        }
+        
+        .path-section {
+            background: #0d1117;
+            padding: 25px;
+            border-radius: 8px;
+            border: 1px solid #dc143c;
+            font-family: 'Courier New', monospace;
+            margin: 20px 0;
+        }
+        
+        .path-section pre {
+            color: #58a6ff;
+            overflow-x: auto;
+        }
+        
+        .contact-section {
+            text-align: center;
+            margin: 40px 0;
+        }
+        
+        .contact-badges {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        
+        .contact-badge {
+            padding: 12px 30px;
+            background: linear-gradient(135deg, #dc143c, #a00f2d);
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
+            transition: all 0.3s;
+            display: inline-block;
+        }
+        
+        .contact-badge:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(220, 20, 60, 0.4);
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 60px;
+            padding: 40px 0;
+            background: linear-gradient(135deg, rgba(220, 20, 60, 0.1) 0%, rgba(88, 166, 255, 0.1) 100%);
+            border-radius: 8px;
+        }
+        
+        .footer-quote {
+            font-style: italic;
+            color: #8b949e;
+            font-size: 1.2em;
+            margin-top: 20px;
+        }
+        
+        hr {
+            border: none;
+            border-top: 1px solid #30363d;
+            margin: 40px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-image">
+                <div style="color: #dc143c; font-size: 2em; z-index: 1;">SAMURAI CODE WARRIOR</div>
+            </div>
+            
+            <h1>🐉 THE WAY OF THE CODE WARRIOR</h1>
+            
+            <p class="subtitle">"The blade is only as sharp as the hand that wields it."</p>
+            
+            <div class="typing-effect">
+                Backend Engineer | Spring Boot & Laravel | Forging Secure Systems with Discipline
+            </div>
+        </div>
 
-# ⚔️ Anouar Ech Charai - Full Stack Developer
+        <hr>
 
-![Samurai Banner](https://img.shields.io/badge/Samurai%20Developer-%E2%9A%94%EF%B8%8F-000000?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Open%20to%20Work-brightgreen?style=for-the-badge)
+        <h2>⚔️ THE WAY OF THE SAMURAI</h2>
+        
+        <div class="about-section">
+            <p>In the ancient land of code and architecture, where systems rise and fall like empires, I walk the path of the <strong>Backend Warrior</strong>. My blade is logic, my armor is security, and my honor is clean, maintainable code.</p>
+            
+            <p style="margin-top: 15px;">Trained in the art of <strong>Java Spring Boot</strong> and <strong>PHP Laravel</strong>, I craft scalable systems that stand the test of battle. From the depths of <strong>PostgreSQL</strong> to the heights of <strong>Keycloak</strong> authentication, I forge applications with the precision of a master swordsmith.</p>
+            
+            <p style="margin-top: 15px;">My journey began in the halls of learning, where I studied the ancient texts of <strong>Computer Science</strong> and <strong>Software Engineering</strong>. Now, I serve as a guardian of backend systems, defending against chaos with <strong>REST APIs</strong>, securing realms with <strong>Spring Security</strong>, and orchestrating containers with <strong>Docker</strong>.</p>
+            
+            <p style="margin-top: 15px; font-style: italic; color: #dc143c;"><em>I am not just a developer. I am a craftsman of digital destiny.</em></p>
+        </div>
 
----
+        <hr>
 
-### Crafting Robust Systems with the Precision of a Samurai 🐉
+        <h2>🗡️ FORGED IN BATTLE</h2>
+        
+        <div class="tech-section">
+            <div class="tech-category">
+                <h3>⚔️ BACK-END ARSENAL</h3>
+                <div class="badges">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="50" height="50" alt="Java" title="Java"/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="50" height="50" alt="Spring Boot" title="Spring Boot"/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="50" height="50" alt="PHP" title="PHP"/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg" width="50" height="50" alt="Laravel" title="Laravel"/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hibernate/hibernate-original.svg" width="50" height="50" alt="Hibernate" title="Hibernate"/>
+                </div>
+            </div>
 
-**Full Stack Developer | Back-End Specialist | Java & PHP Master**
+            <div class="tech-category">
+                <h3>🎨 FRONT-END FORGE</h3>
+                <div class="badges">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50" height="50" alt="HTML5" title="HTML5"/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50" height="50" alt="CSS3" title="CSS3"/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" width="50" height="50" alt="TailwindCSS" title="TailwindCSS"/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="50" height="50" alt="Bootstrap" title="Bootstrap"/>
+                </div>
+            </div>
 
-[View Profile](#about-me) • [Technologies](#technologies) • [Projects](#projects) • [Contact](#contact)
+            <div class="tech-category">
+                <h3>🗄️ DATABASE STRONGHOLDS</h3>
+                <div class="badges">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="50" height="50" alt="PostgreSQL" title="PostgreSQL"/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="50" height="50" alt="MySQL" title="MySQL"/>
+                </div>
+            </div>
 
-</div>
+            <div class="tech-category">
+                <h3>🛡️ SECURITY & IDENTITY</h3>
+                <div class="badges">
+                    <img src="https://www.svgrepo.com/show/331488/keycloak.svg" width="50" height="50" alt="Keycloak" title="Keycloak"/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="50" height="50" alt="Spring Security" title="Spring Security"/>
+                </div>
+            </div>
 
----
+            <div class="tech-category">
+                <h3>🐳 DEVOPS BATTLEGROUND</h3>
+                <div class="badges">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="50" height="50" alt="Docker" title="Docker"/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="50" height="50" alt="Linux" title="Linux"/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" width="50" height="50" alt="Jenkins" title="Jenkins"/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elasticsearch/elasticsearch-original.svg" width="50" height="50" alt="Elasticsearch" title="Elasticsearch"/>
+                </div>
+            </div>
+        </div>
 
-## 🏯 About Me
+        <div class="divider">⚔️</div>
 
-I'm a passionate **Full Stack Developer** with a strong focus on back-end architecture and system design. Trained at **Youcode** and **UM6P**, I combine the precision of a samurai with the creativity of a dragon to build scalable, secure, and elegant applications.
+        <h2>🐉 BATTLES & CREATIONS</h2>
 
-### Core Philosophy
-- ⚔️ Write clean, maintainable code
-- 🏯 Design robust system architectures
-- 🔐 Prioritize security and performance
-- 🐲 Innovate with creativity and purpose
+        <div class="project-card">
+            <h3>🏯 LogiTrack</h3>
+            <div class="subtitle">The Fortress of Order</div>
+            <p>A legendary <strong>Logistics & Warehouse Management System</strong> designed to bring order to chaos. Built with the precision of a master strategist, this fortress manages inventory, tracks shipments, and orchestrates supply chains with military efficiency.</p>
+            <div class="project-tech">
+                <span class="tech-tag">Spring Boot</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">Docker</span>
+                <span class="tech-tag">Keycloak</span>
+                <span class="tech-tag">REST APIs</span>
+            </div>
+        </div>
 
-### Professional Background
-- **Experience Level:** Intermediate to Advanced
-- **Primary Focus:** Back-End Development & System Architecture
-- **Education:** Youcode & UM6P (Morocco)
-- **Specialization:** Enterprise Applications, API Design, Database Optimization
+        <div class="project-card">
+            <h3>🏪 ShopZone</h3>
+            <div class="subtitle">The Merchant's Domain</div>
+            <p>An <strong>E-commerce Platform</strong> where commerce flows like rivers and transactions are sealed with honor. A complete marketplace with secure authentication, product management, and seamless checkout experiences.</p>
+            <div class="project-tech">
+                <span class="tech-tag">Laravel</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">TailwindCSS</span>
+                <span class="tech-tag">Eloquent ORM</span>
+            </div>
+        </div>
 
----
+        <div class="project-card">
+            <h3>💼 CareerLink</h3>
+            <div class="subtitle">The Path of Destiny</div>
+            <p>A <strong>Career Management Application</strong> that connects warriors to their calling. This system handles job postings, applications, and career tracking with the wisdom of an ancient sage.</p>
+            <div class="project-tech">
+                <span class="tech-tag">Spring Boot</span>
+                <span class="tech-tag">Hibernate</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">Spring Security</span>
+            </div>
+        </div>
 
-## 🛠️ Technologies & Tools
+        <div class="project-card">
+            <h3>🎬 Cinema Management System</h3>
+            <div class="subtitle">The Theater of Dreams</div>
+            <p>A comprehensive <strong>Cinema Management Platform</strong> where stories come alive. Manages screenings, bookings, seat reservations, and customer experiences with cinematic excellence.</p>
+            <div class="project-tech">
+                <span class="tech-tag">PHP Laravel</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">Bootstrap</span>
+                <span class="tech-tag">REST APIs</span>
+            </div>
+        </div>
 
-### **Back-End**
-![Java](https://img.shields.io/badge/Java-ED8936?style=flat-square&logo=java&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
+        <div class="divider">🐉</div>
 
-### **Front-End**
-![HTML5](https://img.shields.io/badge/HTML5-E34C26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
+        <h2>🈶 PATH OF THE WARRIOR</h2>
 
-### **Database & Storage**
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=flat-square&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-13AA52?style=flat-square&logo=mongodb&logoColor=white)
+        <div class="path-section">
+            <pre>
+Primary Path:
+  ⚔️ Backend Engineer
+  ☕ Java / Spring Boot Developer
+  🐘 PHP / Laravel Developer
+  
+Secondary Mastery:
+  🛡️ Security-Oriented Applications
+  🔐 Identity & Access Management (Keycloak)
+  📦 Microservices Architecture
+  
+Philosophy:
+  "Code with honor. Build with purpose. Deploy with confidence."
+            </pre>
+        </div>
 
-### **Security & Authentication**
-![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat-square&logo=spring&logoColor=white)
-![Keycloak](https://img.shields.io/badge/Keycloak-000000?style=flat-square&logo=keycloak&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=json-web-tokens&logoColor=white)
+        <hr>
 
-### **DevOps & Tools**
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+        <h2>📜 SUMMON THE WARRIOR</h2>
 
----
+        <div class="contact-section">
+            <div class="contact-badges">
+                <a href="#" class="contact-badge">GitHub</a>
+                <a href="#" class="contact-badge">LinkedIn</a>
+                <a href="#" class="contact-badge">Email</a>
+            </div>
+        </div>
 
-## 🐲 Featured Projects
-
-### LogiTrack - Logistics & Warehouse Management
-**Comprehensive logistics platform with real-time inventory tracking**
-- Technologies: Java, Spring Boot, PostgreSQL, Docker
-- Key Features: Inventory management, real-time tracking, API-driven architecture
-- [View Project](#)
-
-### ShopZone - E-Commerce Platform
-**Full-featured online store with payment integration**
-- Technologies: Java, MySQL, Elasticsearch, Bootstrap
-- Key Features: Product catalog, order management, search optimization
-- [View Project](#)
-
-### CareerLink - Career Management System
-**Professional networking and job matching application**
-- Technologies: Laravel, MySQL, TailwindCSS
-- Key Features: User profiles, job recommendations, analytics dashboard
-- [View Project](#)
-
-### Cinema Management System
-**Theater management with booking and analytics**
-- Technologies: Java, PostgreSQL, Hibernate/JPA, Spring MVC
-- Key Features: Online booking, revenue analytics, seat management
-- [View Project](#)
-
----
-
-## 📊 GitHub Statistics
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=anouarechcharai&theme=dark&show_icons=true&hide_border=true)
-
-</div>
-
----
-
-## 📬 Contact & Connect
-
-<div align="center">
-
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anouar.echcharai@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/anouarechcharai)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/anouar-ech-charai)
-
-</div>
-
----
-
-<div align="center">
-
-### "In the way of the samurai and the spirit of the dragon, I strive for excellence in every line of code."
-
-**Built with precision • Designed with purpose • Crafted with passion**
-
-</div>
+        <div class="footer">
+            <div style="font-size: 3em; margin-bottom: 20px;">道を歩む者</div>
+            <div class="footer-quote">"The code is written. The path is set. The warrior moves forward."</div>
+        </div>
+    </div>
+</body>
+</html>
