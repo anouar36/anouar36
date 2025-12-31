@@ -1,28 +1,126 @@
-![Header](https://i.imgur.com/your-dragon-image.jpg) # 🐉 THE WAY OF THE CODE WARRIOR ### *"The blade is only as sharp as the hand that wields it."* [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=DC143C¢er=true&vCenter=true&width=600&lines=Backend+Engineer+%7C+Spring+Boot+%26+Laravel;Forging+Secure+Systems+with+Discipline;Walking+the+Path+of+Mastery)](https://git.io/typing-svg)
---- ## ⚔️ THE WAY OF THE SAMURAI In the ancient land of code and architecture, where systems rise and fall like empires, I walk the path of the **Backend Warrior**. My blade is logic, my armor is security, and my honor is clean, maintainable code. Trained in the art of **Java Spring Boot** and **PHP Laravel**, I craft scalable systems that stand the test of battle. From the depths of **PostgreSQL** to the heights of **Keycloak** authentication, I forge applications with the precision of a master swordsmith. My journey began in the halls of learning, where I studied the ancient texts of **Computer Science** and **Software Engineering**. Now, I serve as a guardian of backend systems, defending against chaos with **REST APIs**, securing realms with **Spring Security**, and orchestrating containers with **Docker**. *I am not just a developer. I am a craftsman of digital destiny.* --- ## 🗡️ FORGED IN BATTLE
-### ⚔️ BACK-END ARSENAL
-Java    Spring Boot    PHP    Laravel    Hibernate
+<div align="center">
+  <img height="295" src="https://i.pinimg.com/736x/bc/db/a5/bcdba545b0555aebeecd0b26f1a1c0a3.jpg"  />
+</div>
 
-### 🎨 FRONT-END FORGE
-HTML5    CSS3    TailwindCSS    Bootstrap
+###
 
-### 🗄️ DATABASE STRONGHOLDS
-PostgreSQL    MySQL
+<div>
+  <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&theme=cobalt"  />
+</div>
 
-### 🛡️ SECURITY & IDENTITY
-Keycloak    Spring Security
+###
 
-### 🐳 DEVOPS BATTLEGROUND
-Docker    Linux    Jenkins    Elasticsearch
+<h1 align="center">Hey 👋What's Up?</h1>
 
-### 🔧 TOOLS OF THE TRADE
-Git    GitHub    Maven    Composer    Swagger
+###
 
----
-![Dragon Divider](https://media.giphy.com/media/l0HlNQ03J5JxX6lva/giphy.gif)
---- ## 🐉 BATTLES & CREATIONS ### 🏯 **LogiTrack** — *The Fortress of Order* A legendary **Logistics & Warehouse Management System** designed to bring order to chaos. Built with the precision of a master strategist, this fortress manages inventory, tracks shipments, and orchestrates supply chains with military efficiency. **Forged With:** `Spring Boot` • `PostgreSQL` • `Docker` • `Keycloak` • `REST APIs` --- ### 🏪 **ShopZone** — *The Merchant's Domain* An **E-commerce Platform** where commerce flows like rivers and transactions are sealed with honor. A complete marketplace with secure authentication, product management, and seamless checkout experiences. **Forged With:** `Laravel` • `MySQL` • `TailwindCSS` • `Eloquent ORM` • `Stripe Integration` --- ### 💼 **CareerLink** — *The Path of Destiny* A **Career Management Application** that connects warriors to their calling. This system handles job postings, applications, and career tracking with the wisdom of an ancient sage. **Forged With:** `Spring Boot` • `Hibernate` • `PostgreSQL` • `Spring Security` • `Thymeleaf` --- ### 🎬 **Cinema Management System** — *The Theater of Dreams* A comprehensive **Cinema Management Platform** where stories come alive. Manages screenings, bookings, seat reservations, and customer experiences with cinematic excellence. **Forged With:** `PHP Laravel` • `MySQL` • `Bootstrap` • `REST APIs` • `Payment Gateway` ---
-![Katana Slash](https://media.giphy.com/media/3o7btPCcdNniyf0ArS/giphy.gif)
---- ## 🈶 PATH OF THE WARRIOR The warrior walks many roads, but all lead to mastery: ```yaml Primary Path: ⚔️ Backend Engineer ☕ Java / Spring Boot Developer 🐘 PHP / Laravel Developer Secondary Mastery: 🛡️ Security-Oriented Applications 🔐 Identity & Access Management (Keycloak) 📦 Microservices Architecture Philosophy: "Code with honor. Build with purpose. Deploy with confidence." ``` --- ## 📜 SUMMON THE WARRIOR
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile) [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
----
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150§ion=footer&text=道を歩む者&fontSize=40&fontColor=fff&animation=twinkling) ### *"The code is written. The path is set. The warrior moves forward."* ![Profile Views](https://komarev.com/ghpvc/?username=yourusername&color=dc143c&style=for-the-badge&label=WARRIORS+VISITED)
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=ts" height="60" alt="typescript logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=tailwind" height="60" alt="tailwindcss logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=graphql" height="60" alt="graphql logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="60" alt="java logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="60" alt="javascript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="60" alt="html5 logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" height="60" alt="laravel logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" height="60" alt="spring logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="60" alt="git logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/composer/composer-original.svg" height="60" alt="composer logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="60" alt="postgresql logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-line.svg" height="60" alt="jenkins logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="60" alt="docker logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rect/rect-original.svg" height="60" alt="rect logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="60" alt="figma logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" height="60" alt="intellij logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="60" alt="php logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="60" alt="react logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tomcat/tomcat-original.svg" height="60" alt="tomcat logo"  />
+</div>
+
+###
+
+<div align="center">
+  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
+  <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitter logo"  />
+  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="discord logo"  />
+  <img src="https://img.shields.io/static/v1?message=Twitch&logo=twitch&label=&color=9146FF&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitch logo"  />
+  <img src="https://img.shields.io/static/v1?message=dev.to&logo=dev.to&label=&color=0A0A0A&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="devto logo"  />
+</div>
+
+###
+
+<div align="left" style="width: 100%">
+  <a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@undefined/0">
+    <img style="width: 100%" src="https://github-readme-medium-recent-article.vercel.app/medium/@undefined/0" alt="Medium post 1"  />
+  </a>
+  <a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@undefined/1">
+    <img style="width: 100%" src="https://github-readme-medium-recent-article.vercel.app/medium/@undefined/1" alt="Medium post 2"  />
+  </a>
+  <a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@undefined/2">
+    <img style="width: 100%" src="https://github-readme-medium-recent-article.vercel.app/medium/@undefined/2" alt="Medium post 3"  />
+  </a>
+</div>
+
+###
+
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" height="40" alt="jest logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/storybook/storybook-original.svg" height="40" alt="storybook logo"  />
+</div>
+
+###
+
+<p align="left">Hello World!!</p>
+
+###
+
+<div align="center">
+  <img height="200" src="https://i.imgflip.com/65efzo.gif"  />
+</div>
+
+###
+
+<div align="left">
+  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
+  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="52" height="40" alt="twitter logo"  />
+  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo"  />
+  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/youtube/default.svg" width="52" height="40" alt="youtube logo"  />
+</div>
+
+###
+
+<div>
+  <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&theme=cobalt"  />
+</div>
+
+###
+
+<div align="center">
+  <img src="https://spotify-recently-played-readme.vercel.app/api?count=5" alt="Spotify recently played"  />
+</div>
+
+###
