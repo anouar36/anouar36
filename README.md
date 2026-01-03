@@ -1,163 +1,186 @@
-<!-- Header Wave (Commented Out)
+<!-- Header Wave -->
 <div align="center">
   <a href="#">
     <img 
       width="100%" 
-      src="https://capsule-render.vercel.app/api?type=waving&color=FFA500&height=120&section=header&text=&fontSize=30&fontColor=000000&animation=twinkling"
+      src="https://capsule-render.vercel.app/api?type=waving&color=0066FF&height=120&section=header&text=Welcome&fontSize=40&fontColor=ffffff&animation=fadeIn"
     />
   </a>
-  <br>
 </div>
--->
-
-<!-- Footer Wave (Commented Out)
-<p align="center">
-  <img 
-    src="https://capsule-render.vercel.app/api?type=waving&color=FFD700&height=80&section=footer"
-    width="100%" 
-  />
-</p>
--->
-
-<!-- MasterHead -->
-<a href="https://github.com/JoshuaThadi/JoshuaThadi/blob/main/fallout_grayscale%20(1).gif">
-  <img width="1000" height="500" src="https://github.com/JoshuaThadi/JoshuaThadi/blob/main/BEZEHEL.gif" alt="Fallout GIF"/>
-</a>
 
 <!-- Greeting -->
-<!--<h2 align="center">❂ I am Joshua Thadi</h2>-->
-
-
-
 <div align="center">
-  <!-- Profile Views -->
-  
-  <a href="https://github.com/JoshuaThadi" target="_blank">
-    <img src="https://komarev.com/ghpvc/?username=JoshuaThadi&label=Profile%20views&color=5e81ac&style=for-the-badge&logo=github&logoColor=white" alt="Profile Views Badge" /></a>
-  
-  <!--<img src="https://img.shields.io/badge/Profile%20Views-12,391-5e81ac?style=for-the-badge&logo=github" />-->
-
-
-  <!-- Total Stars -->
-  <a href="https://github.com/joshuathadi?tab=repositories&sort=stargazers" target="_blank">
-    <img alt="Total Stars" title="Total stars on GitHub" src="https://img.shields.io/github/stars/joshuathadi?style=for-the-badge&label=Stars&color=bf616a&logo=github" /></a>
-
-  <!-- Followers -->
-  <a href="https://github.com/joshuathadi?tab=followers" target="_blank">
-    <img alt="Followers" title="Follow me on GitHub" src="https://img.shields.io/github/followers/joshuathadi?style=for-the-badge&label=Followers&color=5e81ac&logo=github" /></a>
+  <h1>👨‍💻 Anouar Ech Charai</h1>
+  <h3>Full Stack Developer | Back-End Oriented | Java Spring Boot & PHP Laravel Specialist</h3>
 </div>
 
-<img align="left" alt="coding-gif" width="400" src="https://github.com/JoshuaThadi/JoshuaThadi/blob/main/transparent_gitgif.gif" />
+<br/>
+
+<!-- Profile Badges -->
+<div align="center">
+  <a href="https://github.com/AnouerEchCharai" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Follow-0066FF?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="mailto:your-email@example.com">
+    <img src="https://img.shields.io/badge/Email-Contact-FF6B6B?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/anouar-ech-charai/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+</div>
+
+<br/>
 
 <!-- About Me -->
-<h3 align="left">💫 About Me</h3>
+<h2>💫 About Me</h2>
 <p>
-  🌱 I am currently working on and developing my programming skills.<br>
-  🔭 I worked on .NET Framework and have experience in ASP.NET MVC.<br>
-  💬 Skills I acquire in programming languages such as Python, SQL.<br>
-  ⚡ Interest in DS/AI/ML, Automation, Development/Engineering, etc.<br>
+  🎓 <strong>Education:</strong> Youcode Apprenticeship | UM6P | USMBA University Studies<br/>
+  🚀 <strong>Specialization:</strong> Back-End Development with focus on security & scalability<br/>
+  💼 <strong>Experience:</strong> Full Stack Development with Java Spring Boot, PHP Laravel, and modern front-end technologies<br/>
+  🔐 <strong>Focus:</strong> RESTful APIs, Database Design, Identity & Access Management, DevOps<br/>
+  ⚡ <strong>Goal:</strong> Building secure, maintainable, and high-performance applications<br/>
 </p>
 
-<h3>🧲 Drop me a line:</h3>
+<br/>
+
+<!-- Technology Stack -->
+<h2>🛠️ Technology Stack</h2>
+
+<h3>🔹 Back-End</h3>
 <div align="center">
-  <a href="mailto:thadijoshua@gmail.com"><img width="55px" src="https://github.com/JoshuaThadi/JoshuaThadi/blob/main/icons/gmail_new_logo.png" alt="Gmail" /></a>
-  <a href="https://www.linkedin.com/in/joshuathadi" target="_blank"><img width="55px" src="https://github.com/JoshuaThadi/JoshuaThadi/blob/main/icons/linkedin-blue.png" alt="LinkedIn" /></a>
-  <a href="https://masterjudah-bashfolio.netlify.app/" target="_blank"><img width="55px" src="https://github.com/JoshuaThadi/JoshuaThadi/blob/main/icons/11zon_cropped.png" alt="Portfolio" /></a>
-  <a href="https://open.spotify.com/playlist/4FMOBw7eopNczgfzspCvIP" target="_blank"><img width="55px" src="https://github.com/JoshuaThadi/JoshuaThadi/blob/main/icons/spotify-icon.png" alt="Spotify" /></a>
-  <a href="https://youtube.com/playlist?list=PLAoJfvFSn6qi_8eTKMXdKGMQGQfYOV54n&si=QA1tSQcT_Ogw5DjG" target="_blank"><img width="57px" src="https://github.com/JoshuaThadi/JoshuaThadi/blob/main/icons/youtube-red1.png" alt="YouTube" /></a>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" />
+  <img src="https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="Spring Security" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel" />
+</div>
+
+<h3>🔹 Front-End</h3>
+<div align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34C26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
+  <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular" />
+</div>
+
+<h3>🔹 Databases</h3>
+<div align="center">
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white" alt="Hibernate/JPA" />
+  <img src="https://img.shields.io/badge/Eloquent-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Eloquent ORM" />
+</div>
+
+<h3>🔐 Security & Identity Management</h3>
+<div align="center">
+  <img src="https://img.shields.io/badge/Keycloak-E34567?style=for-the-badge&logo=keycloak&logoColor=white" alt="Keycloak" />
+  <img src="https://img.shields.io/badge/OAuth%202.0-444444?style=for-the-badge&logo=oauth&logoColor=white" alt="OAuth 2.0" />
+  <img src="https://img.shields.io/badge/OpenID%20Connect-5B3CC4?style=for-the-badge" alt="OpenID Connect" />
+  <img src="https://img.shields.io/badge/BCrypt-Security-FF6B6B?style=for-the-badge" alt="BCrypt" />
+</div>
+
+<h3>🐳 DevOps & Infrastructure</h3>
+<div align="center">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Docker%20Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Compose" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" alt="Jenkins" />
+</div>
+
+<h3>🔧 Tools & Version Control</h3>
+<div align="center">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white" alt="Maven" />
+  <img src="https://img.shields.io/badge/Composer-885630?style=for-the-badge&logo=composer&logoColor=white" alt="Composer" />
+</div>
+
+<h3>📊 Monitoring & Search</h3>
+<div align="center">
+  <img src="https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white" alt="Elasticsearch" />
+  <img src="https://img.shields.io/badge/Kibana-005571?style=for-the-badge&logo=kibana&logoColor=white" alt="Kibana" />
 </div>
 
 <br/>
 
-<!-- GitHub Status -->
-<h3 align="center">🌱 GitHub Status</h3>
+<!-- Key Competencies -->
+<h2>🎯 Key Competencies</h2>
+<ul>
+  <li><strong>RESTful API Development</strong> – Designing and implementing scalable APIs</li>
+  <li><strong>Database Design & Optimization</strong> – Schema design, indexing, query optimization</li>
+  <li><strong>Identity & Access Management</strong> – Keycloak, OAuth2, OpenID Connect</li>
+  <li><strong>API Documentation</strong> – Swagger/OpenAPI specifications</li>
+  <li><strong>Environment Configuration</strong> – .env files, application profiles, secrets management</li>
+  <li><strong>Containerization & Deployment</strong> – Docker, Docker Compose, CI/CD pipelines</li>
+</ul>
+
+<br/>
+
+<!-- Featured Projects -->
+<h2>📂 Featured Projects</h2>
 <div align="center">
-  <!--<img width="398" src="https://github-readme-stats.vercel.app/api?username=JoshuaThadi&count_private=true&show_icons=true&theme=nord&rank_icon=github&border_radius=8" />-->
-  <img width="420" src="https://nirzak-streak-stats.vercel.app/?user=joshuathadi&theme=nord&hide_border=false" alt="GitHub Streak Stats" />
+  <table>
+    <tr>
+      <td align="center">
+        <h3>🚚 LogiTrack</h3>
+        <p><em>Logistics & Warehouse Management System</em></p>
+        <p>Full Stack Java Spring Boot & Angular application for warehouse operations</p>
+      </td>
+      <td align="center">
+        <h3>🛍️ ShopZone</h3>
+        <p><em>E-commerce Platform</em></p>
+        <p>Complete e-commerce solution with payment integration and inventory management</p>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <h3>💼 CareerLink</h3>
+        <p><em>Career Management Application</em></p>
+        <p>Job matching and career development platform with advanced search capabilities</p>
+      </td>
+      <td align="center">
+        <h3>🎬 Cinema Management</h3>
+        <p><em>Ticket & Booking System</em></p>
+        <p>Complete cinema management system with booking, payment, and analytics</p>
+      </td>
+    </tr>
+  </table>
 </div>
 
 <br/>
 
-<!-- Languages & Tools -->
-<h3 align="center">📚 Languages & Tools I Have Placed My Hands On</h3>
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=androidstudio,kotlin,nodejs,mongodb,gitlab,raspberrypi,react,nextjs,tailwind" /><br>
-  <img src="https://skillicons.dev/icons?i=bootstrap,html,css,vscode,github,git,notion,figma,pycharm" /><br>
-  <img src="https://skillicons.dev/icons?i=c,bash,kali,arch,ubuntu,python,javascript,mysql,dotnet" /><br>
-  <img src="https://skillicons.dev/icons?i=cpp,cs,vim,java,htmx,debian,neovim,atom,pwsh" /><br>
-</div>
+<!-- Career Orientation -->
+<h2>💡 Career Focus</h2>
+<p align="center">
+  <strong>✨ Back-End Engineer</strong> | 
+  <strong>☕ Java Spring Boot Developer</strong> | 
+  <strong>🐘 PHP Laravel Developer</strong> | 
+  <strong>🔐 Security-Oriented Applications</strong>
+</p>
 
 <br/>
 
-<!-- Best Repositories -->
+<!-- Connect -->
+<h2>🌐 Let's Connect</h2>
 <div align="center">
-  <h3>⭐️ Best Repositories</h3>
-  <p align="center">
-    <a href="https://github.com/JoshuaThadi/Data-Science">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=JoshuaThadi&repo=Data-Science&theme=default&title_color=000000&icon_color=0366d6&text_color=333333&bg_color=ffffff" /></a>
-    <a href="https://github.com/JoshuaThadi/Artificial-Intelligence">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=JoshuaThadi&repo=Artificial-Intelligence&theme=default&title_color=000000&icon_color=0366d6&text_color=333333&bg_color=ffffff" /></a>
-    <a href="https://github.com/JoshuaThadi/Computer-Science">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=JoshuaThadi&repo=Computer-Science&theme=default&title_color=000000&icon_color=0366d6&text_color=333333&bg_color=ffffff" /></a>
-    <a href="https://github.com/JoshuaThadi/Minimalist">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=JoshuaThadi&repo=Minimalist&theme=default&title_color=000000&icon_color=0366d6&text_color=333333&bg_color=ffffff" /></a>
+  <p>
+    <a href="https://www.linkedin.com/in/anouar-ech-charai/" target="_blank">
+      <img width="40" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" />
+    </a>
+    <a href="mailto:your-email@example.com">
+      <img width="40" src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Gmail" />
+    </a>
+    <a href="https://github.com/AnouerEchCharai" target="_blank">
+      <img width="40" src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub" />
+    </a>
   </p>
 </div>
 
-
-<!-- Tech Stack -->
-<h3 align="center">💻 Tech Stack</h3>
-<div align="center">
-  <a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank">
-  <img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" /></a>
-<a href="https://isocpp.org/" target="_blank">
-  <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" /></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" /></a>
-<a href="https://www.python.org/" target="_blank">
-  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" /></a>
-<a href="https://www.gnu.org/software/bash/" target="_blank">
-  <img src="https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Shell Script" /></a>
-<a href="https://www.netlify.com/" target="_blank">
-  <img src="https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=00C7B7" alt="Netlify" /></a>
-<a href="https://dotnet.microsoft.com/" target="_blank">
-  <img src="https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white" alt=".NET" /></a>
-<a href="https://www.mysql.com/" target="_blank">
-  <img src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" /></a>
-<a href="https://www.figma.com/" target="_blank">
-  <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" /></a>
-<a href="https://react.dev/" target="_blank">
-  <img src="https://img.shields.io/badge/react-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=black" alt="React" /></a>
-<a href="https://keras.io/" target="_blank">
-  <img src="https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white" alt="Keras" /></a>
-<a href="https://pytorch.org/" target="_blank">
-  <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white" alt="PyTorch" /></a>
-<a href="https://scikit-learn.org/" target="_blank">
-  <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn" /></a>
-<a href="https://scipy.org/" target="_blank">
-  <img src="https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=white" alt="SciPy" /></a>
-<a href="https://www.tensorflow.org/" target="_blank">
-  <img src="https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white" alt="TensorFlow" /></a>
-
-</div>
-
 <br/>
 
-<!-- Support -->
-<h3 align="center">💰 Support Me</h3>
-<p align="center">
-  <a href="https://www.buymeacoffee.com/joshuathadi">
-    <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="40" width="180" alt="Buy Me A Coffee" />
-  </a>
-</p>
-
-<!-- Ending -->
-<a href="https://github.com/JoshuaThadi/Wall-E-Desk/blob/main/green.gif">
-  <img src="https://github.com/JoshuaThadi/Wall-E-Desk/blob/main/Pixel-Art-2/green.gif" alt="Wall-E GIF" style="width:auto; height:auto" />
-</a>
-
-<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="100%" height="1" />
+<!-- Footer -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0066FF&height=100&section=footer&animation=fadeIn" width="100%" />
+</div>
 
 <p align="center">
-  ⚠️ This README is uniquely designed by <strong>@JoshuaThadi.</strong>
+  <strong>© 2025 Anouar Ech Charai – Full Stack Developer</strong>
 </p>
