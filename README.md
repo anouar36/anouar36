@@ -52,7 +52,7 @@
   <h3>⭐️ Best Repositories</h3>
   <p align="center">
     <a href="https://github.com/anouar36/LogiTrack-Smart-Logistics-Management-API.git">
-        <img src="https://i.pinimg.com/736x/27/16/42/271642f027d77e4d4e5c053cb24084a5.jpg" /></a>
+        <img src="/Gemini_Generated_Image_shr042shr042shr0.png" /></a>
     <a href="#">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=JoshuaThadi&repo=ShopZone&theme=default&title_color=000000&icon_color=0366d6&text_color=333333&bg_color=ffffff" /></a>
     <a href="#">
