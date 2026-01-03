@@ -1,16 +1,16 @@
 Typing SVG<div align="center">
-  <img src="https://i.pinimg.com/736x/40/fc/fd/40fcfd4bbaea0ff29e0b22b27ea72c8f.jpg" />
+  <img src="[https://i.pinimg.com/736x/40/fc/fd/40fcfd4bbaea0ff29e0b22b27ea72c8f.jpg](https://i.pinimg.com/736x/40/fc/fd/40fcfd4bbaea0ff29e0b22b27ea72c8f.jpg)" />
 </div>
 
 <div align="center">
-  <img src="[https://readme-typing-svg.herokuapp.com? font=Fira+Code&weight=600&size=28&pause=1000&color=3F9EF7&center=true&vCenter=true&random=false&width=435&lines=Full+Stack+Developer;Back-End+Oriented;Java+%7C+Spring+Boot;PHP+%7C+Laravel;Always+Learning+%F0%9F%9A%80](https://i.pinimg.com/736x/40/fc/fd/40fcfd4bbaea0ff29e0b22b27ea72c8f.jpg)" alt="Typing SVG" />
+  <img src="https://i.pinimg.com/736x/40/fc/fd/40fcfd4bbaea0ff29e0b22b27ea72c8f.jpg" alt="Typing SVG" />
 </div>
 
 <div align="center">
   
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
   [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/anouar36)
-  [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://your-portfolio. com)
+  [![Portfolio](https://anouar-echcharai.vercel.app/photo-AnouarEcharai.png)](http://anouar-echcharai.vercel.app/)
   
 </div>
 
