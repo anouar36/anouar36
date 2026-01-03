@@ -1,5 +1,5 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api? type=waving&color=gradient&customColorList=12&height=200&section=header&text=Anouar%20Ech%20Charai&fontSize=50&fontAlignY=35&animation=twinkling&fontColor=ffffff" />
+Typing SVG<div align="center">
+  <img src="https://i.pinimg.com/736x/40/fc/fd/40fcfd4bbaea0ff29e0b22b27ea72c8f.jpg" />
 </div>
 
 <div align="center">
@@ -230,7 +230,7 @@ public class AnouarEchCharai implements FullStackDeveloper {
   [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
   [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/your-handle)
-  [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://your-portfolio.com)
+  [![Portfolio](https://anouar-echcharai.vercel.app/photo-AnouarEcharai.png)](http://anouar-echcharai.vercel.app/)
   
 </div>
 
